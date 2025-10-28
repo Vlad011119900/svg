@@ -1,0 +1,40 @@
+.bg{
+    animation: bg 3s linear infinite alternate;
+}
+
+.sun {
+    animation: sun 3s linear infinite alternate;
+}
+
+svg {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes sun {
+    0% {
+        fill: #fcad3a;
+    }
+
+    50% {
+        fill: #f5df96;
+    }
+
+    100% {
+        fill: #fcad3a;
+    }
+}
+
+@keyframes bg {
+    0% {
+        fill: #fff;
+    }
+
+    50% {
+        fill: #152439;
+    }
+
+    100% {
+        fill: #fff;
+    }
+}
